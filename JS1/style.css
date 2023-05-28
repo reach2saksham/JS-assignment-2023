@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+:root {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+#tutorial {
+  display: none;
+  cursor: default;
+  font-size: x-large;
+}
+
+#result,
+body:hover #tutorial {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.75);
+}
+#result {
+  display: none;
+  cursor: default;
+  font-size: x-large;
+
+}
+
+#result .content,
+#tutorial .content {
+  max-width: 400px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+#result {
+}
+
+#score {
+  position: absolute;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  top: 30px;
+  right: 30px;
+}
